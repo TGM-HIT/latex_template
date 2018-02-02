@@ -1,5 +1,14 @@
 ## Protokollvorlagen
 
+### Dependencies
+* **`minted`** 
+* **`pygments`** 
+* **`bibtex`** 
+* **`pdflatex`** 
+* **``** 
+
+
+
 ### Optionen
 
 * **`landscape`** Changes the page format to landscape orientation (thanks to Robert Wimberger)
