@@ -94,7 +94,7 @@
 
 % ## Require and configure minted or listings
 \ifminted
-    \RequirePackage[newfloat]{minted}
+    \RequirePackage[newfloat,outputdir=out,cache=false]{minted}
     \floatplacement{listing}{H} % Override default listing float
     \usemintedstyle{tango}      % autumn, rainbow_dash, tango, trac
     \setminted{ fontsize=\small,
@@ -110,7 +110,7 @@
         {\rmfamily\tiny\arabic{FancyVerbLine}}
         \EndAccSupp{}
     }
-    \SetupFloatingEnvironment{listing}{listname=Auflistungsverzeichnis,name=Auflistung}
+    % \SetupFloatingEnvironment{listing}{listname=Auflistungsverzeichnis,name=Auflistung}
 \else
     \RequirePackage{listing}                % Already defined by minted itself
     \RequirePackage{listings}
